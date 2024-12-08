@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'ejercicio_4_page.dart';
 import 'ejercicio_1_page.dart';
+import 'ejercicio_2_page.dart';
+import 'ejercicio_3_page.dart';
+import 'ejercicio_4_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -50,20 +52,14 @@ class HomePage extends StatelessWidget {
                   title: 'Ejercicio 2',
                   description: 'Factorial de un número',
                   icon: Icons.exposure,
-                  page: Scaffold(
-                    appBar: AppBar(title: const Text('Ejercicio 2')),
-                    body: const Center(child: Text('Ejercicio 2 en desarrollo...')),
-                  ),
+                  page: const Ejercicio2Page(),
                 ),
                 _buildMenuCard(
                   context,
                   title: 'Ejercicio 3',
                   description: 'MCD de dos números',
                   icon: Icons.functions,
-                  page: Scaffold(
-                    appBar: AppBar(title: const Text('Ejercicio 3')),
-                    body: const Center(child: Text('Ejercicio 3 en desarrollo...')),
-                  ),
+                  page: const Ejercicio3Page(),
                 ),
                 _buildMenuCard(
                   context,
