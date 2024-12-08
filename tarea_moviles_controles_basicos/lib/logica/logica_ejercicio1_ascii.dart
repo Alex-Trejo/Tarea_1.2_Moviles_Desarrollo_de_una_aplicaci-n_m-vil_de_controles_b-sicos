@@ -255,22 +255,20 @@ List<String> generarTablaASCIIConPausa() {
     254: "■ Cuadrado",
     255: "NBSP ( Espacio sin separación )",
     
-    // ... puedes seguir agregando los demás códigos aquí
+    
   };
 
   for (int n = 0; n <= 255; n++) {
     if (asciiMap.containsKey(n)) {
-      // Agregar el código y su descripción
+      
       tablaASCII.add('Código ASCII $n = ${asciiMap[n]}');
     } else {
-      // Si no tiene descripción en el mapa, agregar solo el valor
+      
       tablaASCII.add('Código ASCII $n = ${String.fromCharCode(n)}');
     }
 
-    // Verificar si es necesario pausar después de cada 23 caracteres
-    if (n % 23 == 0 && n != 0) {
-      tablaASCII.add('Pausa'); // Indicador para pausar
-    }
+    
+    
   }
 
   return tablaASCII;

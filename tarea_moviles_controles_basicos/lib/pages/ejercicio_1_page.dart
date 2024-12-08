@@ -62,7 +62,7 @@ class _Ejercicio1PageState extends State<Ejercicio1Page> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text(
-              'Genera la tabla ASCII con pausas:',
+              'Genera la tabla ASCII :',
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
@@ -88,7 +88,7 @@ class _Ejercicio1PageState extends State<Ejercicio1Page> {
                 ),
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 30),
             _isLoading
                 ? const Center(child: CircularProgressIndicator()) // Mostrar carga mientras se genera
                 : _errorMessage.isNotEmpty
@@ -106,9 +106,9 @@ class _Ejercicio1PageState extends State<Ejercicio1Page> {
                         child: GridView.builder(
                           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                             crossAxisCount: 2, // Mostrar en dos columnas
-                            crossAxisSpacing: 8.0,
+                            crossAxisSpacing: 17.0,
                             mainAxisSpacing: 8.0,
-                            childAspectRatio: 3, // Ajustar la relación de aspecto para una mejor visualización
+                            childAspectRatio: 1.5, // Ajustar la relación de aspecto para una mejor visualización
                           ),
                           itemCount: _tablaASCII.length,
                           itemBuilder: (context, index) {
@@ -125,7 +125,7 @@ class _Ejercicio1PageState extends State<Ejercicio1Page> {
                                   item,
                                   style: const TextStyle(color: Colors.white, fontSize: 12), // Reducir tamaño del texto
                                   overflow: TextOverflow.ellipsis, // Evitar corte de texto
-                                  maxLines: 2, // Limitar a dos líneas de texto
+                                  maxLines: 7, // Limitar a dos líneas de texto
                                 ),
                               ),
                             );
