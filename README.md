@@ -156,9 +156,9 @@ El proyecto está organizado de la siguiente manera:
 ## Diseño de la Aplicación
 - El diseño de la aplicación sigue una paleta de colores oscuros para una experiencia moderna y agradable.
 - Cada página incluye:
-1. Validaciones para manejar entradas incorrectas.
-2. Estados de carga para operaciones que tardan en completarse.
-3. Mensajes de error amigables para el usuario.
+    1. Validaciones para manejar entradas incorrectas.
+    2. Estados de carga para operaciones que tardan en completarse.
+    3. Mensajes de error amigables para el usuario.
 
 ## Autoría y Colaboración
 El proyecto ha sido desarrollado por un equipo de cuatro integrantes con un enfoque en resolver problemas matemáticos utilizando algoritmos simples e interfaces gráficas eficientes.
