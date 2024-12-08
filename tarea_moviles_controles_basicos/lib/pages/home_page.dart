@@ -3,6 +3,7 @@ import 'ejercicio_1_page.dart';
 import 'ejercicio_2_page.dart';
 import 'ejercicio_3_page.dart';
 import 'ejercicio_4_page.dart';
+import 'ejercicio_5_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -73,10 +74,7 @@ class HomePage extends StatelessWidget {
                   title: 'Ejercicio 5',
                   description: 'Numeros primos',
                   icon: Icons.functions,
-                  page: Scaffold(
-                    appBar: AppBar(title: const Text('Ejercicio 5')),
-                    body: const Center(child: Text('Ejercicio 5 en desarrollo...')),
-                  ),
+                  page: Ejercicio5Page(),
                 ),
               ],
             ),
