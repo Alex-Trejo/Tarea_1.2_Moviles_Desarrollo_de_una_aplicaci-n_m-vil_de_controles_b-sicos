@@ -66,7 +66,7 @@ La aplicación consta de diferentes páginas, cada una enfocada en resolver ejer
     ]
     ```
 
----
+
 
 - **Interfaz gráfica**: `ejercicio_4_page.dart`
   - Permite al usuario ingresar un número y visualizar su descomposición en factores primos.
@@ -79,6 +79,7 @@ La aplicación consta de diferentes páginas, cada una enfocada en resolver ejer
     - Botones y tarjetas estilizadas.
     - Uso de colores y fuentes legibles para mejorar la experiencia del usuario.
 
+---
 
 ### Ejercicio 5: Generación de Números Primos
 - **Archivo lógico**: `logica_ejercicio5_primos.dart`
