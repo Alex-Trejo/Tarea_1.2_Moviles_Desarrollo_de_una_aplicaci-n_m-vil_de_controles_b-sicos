@@ -115,7 +115,7 @@ La aplicación consta de diferentes páginas, cada una enfocada en resolver ejer
    ```
 2. Accede al directorio del proyecto:
     ```bash
-  cd Tarea_1.2_Moviles_Desarrollo_de_una_aplicacion_movil_de_controles_basicos
+    cd Tarea_1.2_Moviles_Desarrollo_de_una_aplicacion_movil_de_controles_basicos
 
    ```
 3. Instalar las dependencias:
