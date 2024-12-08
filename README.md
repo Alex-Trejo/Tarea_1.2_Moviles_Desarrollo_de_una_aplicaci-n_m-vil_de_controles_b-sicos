@@ -66,6 +66,8 @@ La aplicación consta de diferentes páginas, cada una enfocada en resolver ejer
     ]
     ```
 
+---
+
 - **Interfaz gráfica**: `ejercicio_4_page.dart`
   - Permite al usuario ingresar un número y visualizar su descomposición en factores primos.
   - Contiene las siguientes funcionalidades:
